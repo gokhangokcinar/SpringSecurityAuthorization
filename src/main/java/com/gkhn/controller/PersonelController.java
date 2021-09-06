@@ -10,12 +10,12 @@ public class PersonelController {
 	public String MerhabaPersonel() {
 		return "Merhaba Personel";
 	}
-	@GetMapping("/kullanici")
+	@GetMapping("/user")
 	public String MerhabaKullanici() {
 		return "Merhaba Kullanici";
 	}
 	@GetMapping("/admin")
 	public String MerhabaAdmin() {
-		return "Merhaba Admin" ;
+		return "Merhaba Admin";
 	}
 }
